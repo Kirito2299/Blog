@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb://localhost:27017/BlogDB', {
+mongoose.connect('mongodb+srv://Kirito_22:Kirito1234@bloghead-kyiqg.mongodb.net/BlogDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
